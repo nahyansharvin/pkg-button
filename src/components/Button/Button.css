@@ -1,0 +1,37 @@
+.btn {
+    border: 0;
+    border-radius: 3em;
+    display: inline-block;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+  .btn--primary {
+    color: white;
+    background-color: #2e2b2b;
+  }
+  .btn--primary:hover {
+    opacity: 0.9;
+  }
+  .btn--secondary {
+    color: #333;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+  }
+  .btn--secondary:hover {
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 1px inset;
+  }
+  .btn--small {
+    font-size: 12px;
+    padding: 10px 16px;
+  }
+  .btn--medium {
+    font-size: 14px;
+    padding: 11px 20px;
+  }
+  .btn--large {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+  
