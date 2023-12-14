@@ -1,0 +1,19 @@
+{
+  "name": "katzion-button",
+  "version": "0.0.1",
+  "description": "Button for Katzion DataHub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nahyan",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.45",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
