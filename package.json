@@ -1,6 +1,6 @@
 {
   "name": "@nahyansharvin/katzion-button",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Button for Katzion DataHub",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -9,13 +9,17 @@
   ],
   "types": "dist/index.d.ts",
   "scripts": {
-    "build-lib": "rollup -c"
+    "build-lib": "rollup -c",
+    "clean": "rm -rf dist"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
   "author": "nahyan",
   "license": "ISC",
+  "dependencies": {
+    "@nahyansharvin/katzion-datahub": "^1.0.0"
+  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
