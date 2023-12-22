@@ -1,6 +1,7 @@
 import React from "react";
 import "./Button.css";
 import { useDispatch } from "react-redux";
+import { actions } from "@nahyansharvin/katzion-datahub"
 
 export interface ButtonProps {
   primary?: boolean;
@@ -13,8 +14,9 @@ const Button = ({
   ...props
 }: ButtonProps) => {
   const dispatch = useDispatch();
+  const { increment, decrement } = actions;
   const mode = primary ? "btn--primary" : "btn--secondary";
-  const action = primary ? {type: "counter/increment"} : {type: "counter/decrement"};
+  const action = primary ? increment() : decrement();
 
   return (
     <button className={`btn btn--${size} ${mode}`} onClick={() => dispatch(action)} {...props}>

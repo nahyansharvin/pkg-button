@@ -1,6 +1,6 @@
 {
   "name": "@nahyansharvin/katzion-button",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Button for Katzion DataHub",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -21,12 +21,14 @@
     "@nahyansharvin/katzion-datahub": "^1.0.0"
   },
   "devDependencies": {
+    "@nahyansharvin/katzion-datahub": "^1.0.0",
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^11.1.5",
     "@types/react": "^18.2.45",
     "postcss": "^8.4.32",
+    "react-redux": "^9.0.4",
     "rollup": "^4.9.0",
     "rollup-plugin-dts": "^6.1.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
@@ -34,7 +36,6 @@
     "typescript": "^5.3.3"
   },
   "peerDependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^18.2.0"
   }
 }
